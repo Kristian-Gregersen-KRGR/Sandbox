@@ -61,3 +61,7 @@ conda activate tf-1.15-nvidia
 cd <PATH-TO-C073_Segmentation_MaskRCNN>
 export PYTHONPATH=$PYTHONPATH:"Mask_RCNN"
 ```
+
+
+## pip installs above using requirements file
+pip install -r requirements.txt
