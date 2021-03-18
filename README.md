@@ -25,7 +25,7 @@ conda activate tf-1.15-nvidia
 pip install nvidia-pyindex
 ```
 
-### install tensorflow with GPU support
+### install tensorflow 1.15 with GPU support (cuda 11, cudnn 8)
 ```
 pip install nvidia-tensorflow[horovod] 
 ```
