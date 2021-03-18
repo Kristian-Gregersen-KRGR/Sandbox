@@ -63,7 +63,7 @@ export PYTHONPATH=$PYTHONPATH:"Mask_RCNN"
 ```
 
 
-## Installation of requirements file (all pip commands above)
+## Installation using requirements file (all pip commands above)
 ```
 pip install -r requirements.txt
 ```
