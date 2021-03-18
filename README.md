@@ -2,7 +2,7 @@
 
 ## Setup Tensorflow with Cuda 11 
 
-### install nvidia driver
+### install nvidia driver (v460)
 ```
 sudo apt-get dist-upgrade
 sudo shutdown -r now
