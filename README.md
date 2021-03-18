@@ -25,6 +25,13 @@ conda activate tf-1.15-nvidia
 pip install nvidia-pyindex
 ```
 
+### [OPTIONAL] install mpi for multi-gpu support
+```
+conda install -c conda-forge openmpi
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/anaconda3/envs/tf-1.15-nvidia/lib/
+```
+
+
 ### install tensorflow 1.15 with GPU support (cuda 11, cudnn 8)
 ```
 pip install nvidia-tensorflow[horovod] 
@@ -60,6 +67,10 @@ export PYTHONPATH=$PYTHONPATH:"Mask_RCNN"
 conda activate tf-1.15-nvidia
 cd <PATH-TO-C073_Segmentation_MaskRCNN>
 export PYTHONPATH=$PYTHONPATH:"Mask_RCNN"
+```
+if mpi installed for multi-gpu support:
+```
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/anaconda3/envs/tf-1.15-nvidia/lib/
 ```
 
 
