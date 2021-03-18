@@ -1,6 +1,6 @@
 # Sandbox
 
-## Setup Tensorflow with Cuda 11 
+## Setup Tensorflow 1.15 with Cuda 11 
 
 ### install nvidia driver (v460)
 ```
